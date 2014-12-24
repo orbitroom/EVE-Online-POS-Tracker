@@ -1,0 +1,187 @@
+/*Theme 4 = Razor Alliance*/
+.txtcenter {
+  text-align:center;
+}
+
+.txtleft {
+  text-align:left;
+}
+
+.txtright {
+  text-align:right;
+}
+
+.mcenter {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #eae9e9;
+  text-decoration: underline;
+}
+
+.link { /*links in footer, tracker*/
+  color: #9d9d9d;
+  text-decoration: underline;
+}
+
+a.sort { /*sort links on track*/
+  color: #dedddc;
+  text-decoration: underline;
+}
+
+.mcolor { /*main color*/
+  color: #eae9e9;
+}
+
+.mbground { /*main background color*/
+  background-color:#242424;
+}
+
+.hcolor { /*header color*/
+  color: #dedddc;
+}
+
+.billheader {
+  padding:5px;
+  border:1px black solid;
+  border-collapse:collapse;
+  text-decoration: none;
+}
+
+.billcontent {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  text-decoration: none;
+  border:1px black solid;
+  border-collapse:collapse;
+  text-align:right;
+  padding:5px;
+}
+
+.tracktable {
+  font-family: Arial,sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: normal;
+  font-size-adjust: none;
+  font-stretch: normal;
+  /*border:1px white solid;*/
+  padding:5px;
+  /*width:100%;*/
+}
+
+.tracktable td, .tracktable th {
+  border:1px black solid;
+  border-collapse:collapse;
+  padding:5px;
+
+}
+
+body {
+  color:#eae9e9;
+  background-color:#2f2f2e;
+  text-align:center;
+}
+
+img {
+  border:0;
+}
+
+table {
+  empty-cells: show
+}
+
+.collapse {
+  border-collapse:collapse;
+}
+
+.auser:hover {
+   background-color: #2f314a;
+}
+
+body#header, .navif {
+	margin:0px auto;
+	background:transparent url(../images/nav_bg4.png) 0px 0px repeat-x;
+	background-color:#2F2F2E;
+	border-bottom:1px solid #2f2f2e;
+	height:31px;
+}
+
+#navi {
+	margin:0px auto;
+	font-size: 0px;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	width: auto;
+	border-bottom:1px solid #2f2f2e;
+	border-top:1px solid #2f2f2e;
+}
+
+.navib, .navif {
+	font-size: 12px;
+	width: auto;
+	height: 31px;
+	display: inline-block;
+}
+
+div#navi div a, .navif {
+	display:block;
+	width: auto;
+	color:#999999;
+	text-decoration:none;
+	font-weight:bold;
+	padding:8px 8px 0 8px;
+}
+	
+div#navi div a:hover, div a.current {	
+	color:#FFFFFF;
+	height: 22px;
+	background:transparent url(../images/nav_bt4.png) 0px -1px no-repeat;		
+}
+
+.mButton {
+	background-color:#2f2f2e;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-box-shadow:0px 0px 2px rgba(0,0,0,0.4);
+	-webkit-box-shadow:0px 0px 2px rgba(0,0,0,0.4);
+	text-shadow:1px 1px 0px rgba(255,255,255,0.8);
+	border-radius:4px;
+	border:1px solid #242424;
+	background:-webkit-gradient(linear,0% 0%,0% 100%,from(rgba(255,255,255,1)),to(rgba(185,185,185,1)));
+	background:-moz-linear-gradient(top,rgba(255,255,255,1),rgba(185,185,185,1));
+	border-style:ridge;
+	display:inline-block;
+	color:#636263;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:2px 12px;
+	text-decoration:none;
+} .mButton:hover {
+	background-color:#dfdfdf;
+	background:rgba(240,240,240,1);
+	color:black;
+} .mButton:active {
+	position:relative;
+	top:1px;
+}
+
+/*production CSS*/
+.pU24 {
+	border:1px #003a75 solid !important;
+}
+
+.pEmpty {
+	border:1px #EE0000 solid !important;
+}
+
+.pFine {
+    border:1px #000000 solid !important;
+}
