@@ -62,7 +62,7 @@ Step 6. Remove all the files in the /install subdirectory.
 	You can also us remove moons from the database using this page.
 
 Step 7. (Optional) Create a cronjob pointed to postrackercron.sh and have it run at least every 24 hours for the AutoSov©, Mail Alert, and Alliance-Update. AutoSov© and Alliance Update will warn every 7 days if not updated.
-	Create a second cronjob pointed to poscron.sh to update starbases using the eveapi.
+	Create a second cronjob pointed to poscron.sh to update starbases using the eveapi. You will need to edit postrackercron.sh to your systems settings.
 
 Step 8. (Optional) Login to the tracker and browse to the Admin pannel. Click the Add API button.
 	Enter the Full Access API key for a character that has the role director or CEO in the corporation for the starbases you want to track.
